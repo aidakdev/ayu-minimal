@@ -1,0 +1,36 @@
+{
+    "version": "0.0.1",
+    "name": "ayu-minimal",
+    "publisher": "wiletki",
+    "displayName": "ayu-minimal",
+    "description": "Minimal design for the Ayu theme",
+    "contributes": {
+        "themes": [
+            {
+                "uiTheme": "vs-dark",
+                "label": "Ayu Minimal",
+                "path": "./ayu-minimal-dark.json"
+            },
+            {
+                "uiTheme": "vs-dark",
+                "label": "Ayu Minimal Midnight",
+                "path": "./ayu-minimal-midnight.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/wiletki/ayu-minimal"
+    },
+    "engines": {
+        "vscode": "^1.75.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.51.0",
+        "@typescript-eslint/parser": "^5.51.0",
+        "eslint": "^8.34.0"
+    }
+}
